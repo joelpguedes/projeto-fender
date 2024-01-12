@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+  height: 150px;
+  margin-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.link {
+  cursor: pointer;
+}
+
+body {
+  background-image: url(./assets/fender-1920px.jpg);
+  
+  
+  
+}
+
+.container {
+  height: 500px;
+  width: 800px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+h1 {
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  justify-content: left;
+  text-align: left;
+  font-size: 20px;
+}
+
+@media screen  {
+  
+}
+
